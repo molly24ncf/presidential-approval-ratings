@@ -237,22 +237,22 @@ tagList(
       class = "president-plot-container",
       style = if (i == 1) "display: block;" else "display: none;",
       tags$div(
-        style = paste0("display: flex; align-items: center; gap: 18px; margin: 5px 0 20px 0; padding: 12px 18px; background-color: #f8f9fa; border: 1px solid #e9ecef; border-left: 5px solid ", badge_bg, "; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06);"),
+        style = paste0("display: flex; align-items: center; gap: 18px; margin: 10px 0 20px 0; padding: 14px 20px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); border-left: 6px solid ", badge_bg, "; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); backdrop-filter: blur(8px);"),
         tags$img(
           src = p_img,
           alt = paste(p_name, "portrait"),
-          style = "width: 80px; height: 100px; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.18); border: 2px solid white;"
+          style = "width: 75px; height: 95px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
         ),
         tags$div(
-          tags$h3(style = "margin: 0 0 6px 0; font-size: 1.35rem; font-weight: 700; color: #212529;", paste0(p_name, " (", p_term, ")")),
+          tags$h3(style = "margin: 0 0 6px 0; font-size: 1.35rem; font-weight: 700; color: #ffffff;", paste0(p_name, " (", p_term, ")")),
           tags$div(
             style = "display: flex; align-items: center; gap: 10px; flex-wrap: wrap;",
             tags$span(
-              style = paste0("display: inline-block; padding: 3px 12px; font-size: 0.85rem; font-weight: 600; color: #fff; background-color: ", badge_bg, "; border-radius: 12px;"),
+              style = paste0("display: inline-block; padding: 3px 12px; font-size: 0.85rem; font-weight: 600; color: #fff; background-color: ", badge_bg, "; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.3);"),
               p_party
             ),
             tags$span(
-              style = "color: #495057; font-size: 0.95rem; font-weight: 500;",
+              style = "color: #94a3b8; font-size: 0.95rem; font-weight: 500;",
               paste0("Term: (", p_term, ")")
             )
           )

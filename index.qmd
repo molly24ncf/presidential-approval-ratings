@@ -83,4 +83,4 @@ This project was developed for a deeper and more thorough examination of approva
   - Presidential job approval ratings (1945–2025) via Gallup and the American Presidency Project.
   - Congressional job approval ratings (1974–2025) via Gallup Historical Trends. *Note: some graphs may not include congressional approval data prior to 1974 due to limited availability.*
   - Party favorability ratings (1992–2024) via Gallup. *Note: some graphs may not include party favorability data prior to 1992 due to limited availability.*
-- **Interactive Exploration:** To view individual administration trends with month-by-month animations from Harry Truman to Joe Biden, visit the [Exploration](exploration.qmd) page.
+- **Interactive Exploration:** To view individual administration trends with month-by-month animations from Harry Truman to Joe Biden, visit the [Exploration] page.
