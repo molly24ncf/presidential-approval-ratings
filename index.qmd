@@ -43,7 +43,7 @@ ggplot() +
   scale_x_date(date_breaks = "10 years", date_labels = "%Y") +
   labs(
     title = "U.S. Public, Congressional, and Party Ratings (1945-2025)",
-    subtitle = "Monthly Gallup ratings for Presidential Public Approval (from 1945), Congressional Approval (from 1974), and Party Favorability (from 1992); dashed line marks 50%",
+    subtitle = "Monthly Gallup ratings for Presidential Approval (from 1945), Congressional Approval (from 1974),\nand Party Favorability (from 1992). The dashed line marks the 50% threshold.",
     x = NULL,
     y = NULL,
     caption = "Source: Gallup Polls via DataCamp, American Presidency Project, & Gallup Historical Trends"
@@ -83,4 +83,4 @@ This project was developed for a deeper and more thorough examination of approva
   - Presidential job approval ratings (1945–2025) via Gallup and the American Presidency Project.
   - Congressional job approval ratings (1974–2025) via Gallup Historical Trends. *Note: some graphs may not include congressional approval data prior to 1974 due to limited availability.*
   - Party favorability ratings (1992–2024) via Gallup. *Note: some graphs may not include party favorability data prior to 1992 due to limited availability.*
-- **Interactive Exploration:** To view individual administration trends with month-by-month animations from Harry Truman to Joe Biden, visit the [Exploration] page.
+- **Interactive Exploration:** To view individual administration trends with month-by-month animations from Harry Truman to Joe Biden, visit the [Exploration](exploration.qmd) page.
