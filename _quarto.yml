@@ -11,6 +11,8 @@ website:
       - href: index.qmd
         text: Story
       - exploration.qmd
+      - href: background.qmd
+        text: Background
 
 format:
   html:
