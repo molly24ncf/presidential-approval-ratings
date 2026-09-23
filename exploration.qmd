@@ -40,7 +40,8 @@ pres_terms <- c(
   "George W. Bush" = "2001–2009",
   "Barack Obama" = "2009–2017",
   "Donald Trump" = "2017–2021",
-  "Joe Biden" = "2021–2025"
+  "Joe Biden" = "2021–2025",
+  "Donald Trump (Second Term)" = "2025–present"
 )
 
 pres_images <- c(
@@ -57,7 +58,8 @@ pres_images <- c(
   "George W. Bush" = "images/presidents/bush43.jpg",
   "Barack Obama" = "images/presidents/obama.jpg",
   "Donald Trump" = "images/presidents/trump.jpg",
-  "Joe Biden" = "images/presidents/biden.jpg"
+  "Joe Biden" = "images/presidents/biden.jpg",
+  "Donald Trump (Second Term)" = "images/presidents/trump.jpg"
 )
 
 make_anim_plot <- function(pres) {

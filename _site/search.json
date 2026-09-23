@@ -4,35 +4,35 @@
     "href": "index.html",
     "title": "Story",
     "section": "",
-    "text": "How do Americans view their leaders, and how does public sentiment toward the White House compare to attitudes toward Congress and political parties? By analyzing monthly Gallup polling data from 1945 to 2025, we can track how public approval, congressional approval, and party favorability interact across various presidential administrations."
+    "text": "How do Americans view their leaders, and how does public sentiment toward the White House compare to attitudes toward Congress and political parties? By analyzing monthly Gallup polling data from 1945 to 2026, we can track how public approval, congressional approval, and party favorability interact across various presidential administrations."
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Story",
     "section": "About",
-    "text": "About\nThis project was developed for a deeper and more thorough examination of approval ratings and how they evolve over time. It examines historical trends in American political sentiment using monthly polling series from Gallup.\n\nData Sources:\n\nPresidential job approval ratings (1945–2025) via Gallup and the American Presidency Project.\nCongressional job approval ratings (1974–2025) via Gallup Historical Trends. Note: some graphs may not include congressional approval data prior to 1974 due to limited availability.\nParty favorability ratings (1992–2024) via Gallup. Note: some graphs may not include party favorability data prior to 1992 due to limited availability.\n\nInteractive Exploration: To view individual administration trends with month-by-month animations from Harry Truman to Joe Biden, visit the Exploration page."
+    "text": "About\nThis project was developed for a deeper and more thorough examination of approval ratings and how they evolve over time. It examines historical trends in American political sentiment using monthly polling series from Gallup.\n\nData Sources:\n\nPresidential job approval ratings (1945–2026) via Gallup and the American Presidency Project.\nCongressional job approval ratings (1974–2025) via Gallup Historical Trends. Note: some graphs may not include congressional approval data prior to 1974 due to limited availability.\nParty favorability ratings (1992–2025) via Gallup. Note: some graphs may not include party favorability data prior to 1992 due to limited availability.\n\nInteractive Exploration: To view individual administration trends with month-by-month animations from Harry Truman to Donald Trump (Second Term), visit the Exploration page."
   },
   {
     "objectID": "background.html",
     "href": "background.html",
     "title": "Background",
     "section": "",
-    "text": "This project examines historical trends in American political sentiment using monthly polling series from Gallup, tracking public approval, congressional approval, and party favorability from 1945 to 2025."
+    "text": "This project examines historical trends in American political sentiment using monthly polling series from Gallup, tracking public approval, congressional approval, and party favorability from 1945 to 2026."
   },
   {
     "objectID": "background.html#project-background",
     "href": "background.html#project-background",
     "title": "Background",
     "section": "",
-    "text": "This project examines historical trends in American political sentiment using monthly polling series from Gallup, tracking public approval, congressional approval, and party favorability from 1945 to 2025."
+    "text": "This project examines historical trends in American political sentiment using monthly polling series from Gallup, tracking public approval, congressional approval, and party favorability from 1945 to 2026."
   },
   {
     "objectID": "exploration.html",
     "href": "exploration.html",
     "title": "Exploration",
     "section": "",
-    "text": "Use the dropdown menus below to select an administration and compare ratings over time: Public Approval, Congressional Approval, and Party Favorability. Click ▶ Play Trend to animate the ratings month-by-month over the president’s term, or use the filter menu to toggle individual trends.\n\n\n\n\nSelect President:\n\nHarry Truman (1945–1953)\nDwight Eisenhower (1953–1961)\nJohn F. Kennedy (1961–1963)\nLyndon Johnson (1963–1969)\nRichard Nixon (1969–1974)\nGerald Ford (1974–1977)\nJimmy Carter (1977–1981)\nRonald Reagan (1981–1989)\nGeorge H.W. Bush (1989–1993)\nBill Clinton (1993–2001)\nGeorge W. Bush (2001–2009)\nBarack Obama (2009–2017)\nDonald Trump (2017–2021)\nJoe Biden (2021–2025)\n\n\n\nSelect Trend to Play:\n\nAll Ratings (Public, Congress, Party)\nPublic Approval\nCongressional Approval\nParty Favorability\n\n\n\n\n\n\n\nHarry Truman (1945–1953)\n\nDemocrat\nTerm: (1945–1953)\n\n\n\n\n\n\n\n\n\n\nDwight Eisenhower (1953–1961)\n\nRepublican\nTerm: (1953–1961)\n\n\n\n\n\n\n\n\n\n\nJohn F. Kennedy (1961–1963)\n\nDemocrat\nTerm: (1961–1963)\n\n\n\n\n\n\n\n\n\n\nLyndon Johnson (1963–1969)\n\nDemocrat\nTerm: (1963–1969)\n\n\n\n\n\n\n\n\n\n\nRichard Nixon (1969–1974)\n\nRepublican\nTerm: (1969–1974)\n\n\n\n\n\n\n\n\n\n\nGerald Ford (1974–1977)\n\nRepublican\nTerm: (1974–1977)\n\n\n\n\n\n\n\n\n\n\nJimmy Carter (1977–1981)\n\nDemocrat\nTerm: (1977–1981)\n\n\n\n\n\n\n\n\n\n\nRonald Reagan (1981–1989)\n\nRepublican\nTerm: (1981–1989)\n\n\n\n\n\n\n\n\n\n\nGeorge H.W. Bush (1989–1993)\n\nRepublican\nTerm: (1989–1993)\n\n\n\n\n\n\n\n\n\n\nBill Clinton (1993–2001)\n\nDemocrat\nTerm: (1993–2001)\n\n\n\n\n\n\n\n\n\n\nGeorge W. Bush (2001–2009)\n\nRepublican\nTerm: (2001–2009)\n\n\n\n\n\n\n\n\n\n\nBarack Obama (2009–2017)\n\nDemocrat\nTerm: (2009–2017)\n\n\n\n\n\n\n\n\n\n\nDonald Trump (2017–2021)\n\nRepublican\nTerm: (2017–2021)\n\n\n\n\n\n\n\n\n\n\nJoe Biden (2021–2025)\n\nDemocrat\nTerm: (2021–2025)"
+    "text": "Use the dropdown menus below to select an administration and compare ratings over time: Public Approval, Congressional Approval, and Party Favorability. Click ▶ Play Trend to animate the ratings month-by-month over the president’s term, or use the filter menu to toggle individual trends.\n\n\n\n\nSelect President:\n\nHarry Truman (1945–1953)\nDwight Eisenhower (1953–1961)\nJohn F. Kennedy (1961–1963)\nLyndon Johnson (1963–1969)\nRichard Nixon (1969–1974)\nGerald Ford (1974–1977)\nJimmy Carter (1977–1981)\nRonald Reagan (1981–1989)\nGeorge H.W. Bush (1989–1993)\nBill Clinton (1993–2001)\nGeorge W. Bush (2001–2009)\nBarack Obama (2009–2017)\nDonald Trump (2017–2021)\nJoe Biden (2021–2025)\nDonald Trump (Second Term) (2025–present)\n\n\n\nSelect Trend to Play:\n\nAll Ratings (Public, Congress, Party)\nPublic Approval\nCongressional Approval\nParty Favorability\n\n\n\n\n\n\n\nHarry Truman (1945–1953)\n\nDemocrat\nTerm: (1945–1953)\n\n\n\n\n\n\n\n\n\n\nDwight Eisenhower (1953–1961)\n\nRepublican\nTerm: (1953–1961)\n\n\n\n\n\n\n\n\n\n\nJohn F. Kennedy (1961–1963)\n\nDemocrat\nTerm: (1961–1963)\n\n\n\n\n\n\n\n\n\n\nLyndon Johnson (1963–1969)\n\nDemocrat\nTerm: (1963–1969)\n\n\n\n\n\n\n\n\n\n\nRichard Nixon (1969–1974)\n\nRepublican\nTerm: (1969–1974)\n\n\n\n\n\n\n\n\n\n\nGerald Ford (1974–1977)\n\nRepublican\nTerm: (1974–1977)\n\n\n\n\n\n\n\n\n\n\nJimmy Carter (1977–1981)\n\nDemocrat\nTerm: (1977–1981)\n\n\n\n\n\n\n\n\n\n\nRonald Reagan (1981–1989)\n\nRepublican\nTerm: (1981–1989)\n\n\n\n\n\n\n\n\n\n\nGeorge H.W. Bush (1989–1993)\n\nRepublican\nTerm: (1989–1993)\n\n\n\n\n\n\n\n\n\n\nBill Clinton (1993–2001)\n\nDemocrat\nTerm: (1993–2001)\n\n\n\n\n\n\n\n\n\n\nGeorge W. Bush (2001–2009)\n\nRepublican\nTerm: (2001–2009)\n\n\n\n\n\n\n\n\n\n\nBarack Obama (2009–2017)\n\nDemocrat\nTerm: (2009–2017)\n\n\n\n\n\n\n\n\n\n\nDonald Trump (2017–2021)\n\nRepublican\nTerm: (2017–2021)\n\n\n\n\n\n\n\n\n\n\nJoe Biden (2021–2025)\n\nDemocrat\nTerm: (2021–2025)\n\n\n\n\n\n\n\n\n\n\nDonald Trump (Second Term) (2025–present)\n\nRepublican\nTerm: (2025–present)"
   },
   {
     "objectID": "about.html",

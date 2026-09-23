@@ -2,7 +2,7 @@
 title: "Story"
 ---
 
-How do Americans view their leaders, and how does public sentiment toward the White House compare to attitudes toward Congress and political parties? By analyzing monthly Gallup polling data from 1945 to 2025, we can track how public approval, congressional approval, and party favorability interact across various presidential administrations.
+How do Americans view their leaders, and how does public sentiment toward the White House compare to attitudes toward Congress and political parties? By analyzing monthly Gallup polling data from 1945 to 2026, we can track how public approval, congressional approval, and party favorability interact across various presidential administrations.
 
 ```{r}
 #| message: false
@@ -12,13 +12,13 @@ How do Americans view their leaders, and how does public sentiment toward the Wh
 
 library(tidyverse)
 
-# Load monthly presidential approval data (1945–2025)
+# Load monthly presidential approval data (1945–2026)
 monthly_data <- read_csv("data/presidential_approval_by_month.csv", show_col_types = FALSE)
 
 # Load congressional approval data (1974–2025)
 congress_data <- read_csv("data/congressional_approval_by_month.csv", show_col_types = FALSE)
 
-# Load party favorability data (1992–2024)
+# Load party favorability data (1992–2025)
 party_data <- read_csv("data/party_favorability_by_month.csv", show_col_types = FALSE)
 
 # Single time series styled with clean Axios aesthetic
@@ -42,7 +42,7 @@ ggplot() +
   ) +
   scale_x_date(date_breaks = "10 years", date_labels = "%Y") +
   labs(
-    title = "U.S. Public, Congressional, and Party Ratings (1945-2025)",
+    title = "U.S. Public, Congressional, and Party Ratings (1945-2026)",
     subtitle = "Monthly Gallup ratings for Presidential Approval (from 1945), Congressional Approval (from 1974),\nand Party Favorability (from 1992). The dashed line marks the 50% threshold.",
     x = NULL,
     y = NULL,
@@ -80,7 +80,7 @@ ggplot() +
 This project was developed for a deeper and more thorough examination of approval ratings and how they evolve over time. It examines historical trends in American political sentiment using monthly polling series from Gallup.
 
 - **Data Sources:** 
-  - Presidential job approval ratings (1945–2025) via Gallup and the American Presidency Project.
+  - Presidential job approval ratings (1945–2026) via Gallup and the American Presidency Project.
   - Congressional job approval ratings (1974–2025) via Gallup Historical Trends. *Note: some graphs may not include congressional approval data prior to 1974 due to limited availability.*
-  - Party favorability ratings (1992–2024) via Gallup. *Note: some graphs may not include party favorability data prior to 1992 due to limited availability.*
-- **Interactive Exploration:** To view individual administration trends with month-by-month animations from Harry Truman to Joe Biden, visit the [Exploration](exploration.qmd) page.
+  - Party favorability ratings (1992–2025) via Gallup. *Note: some graphs may not include party favorability data prior to 1992 due to limited availability.*
+- **Interactive Exploration:** To view individual administration trends with month-by-month animations from Harry Truman to Donald Trump (Second Term), visit the [Exploration](exploration.qmd) page.

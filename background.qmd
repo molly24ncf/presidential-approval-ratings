@@ -4,4 +4,4 @@ title: "Background"
 
 ## Project Background
 
-This project examines historical trends in American political sentiment using monthly polling series from Gallup, tracking public approval, congressional approval, and party favorability from 1945 to 2025.
+This project examines historical trends in American political sentiment using monthly polling series from Gallup, tracking public approval, congressional approval, and party favorability from 1945 to 2026.
