@@ -116,7 +116,16 @@ blockquote {
   padding: 16px 18px 24px 18px;
   box-shadow: 0 14px 35px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.12);
   height: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+.js-plotly-plot .plot-container,
+.js-plotly-plot .svg-container,
+.js-plotly-plot svg.main-svg {
+  max-width: 100% !important;
 }
 
 /* Polished dropdown selectors */
