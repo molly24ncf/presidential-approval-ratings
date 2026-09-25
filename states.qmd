@@ -89,8 +89,9 @@ make_state_map <- function(pres) {
   
   hover_txt <- paste0(
     "<b>", sub$state, "</b><br>",
-    "Support: <b>", sub$vote_pct, "%</b><br>",
-    "Election: ", yr
+    "Approval Rating: <b>", sub$vote_pct, "%</b><br>",
+    "Status: ", ifelse(sub$vote_pct >= 50, "Carried (≥50%)", "Below 50%"), "<br>",
+    "Election Year: ", yr
   )
   
   p <- plot_ly(
@@ -100,32 +101,37 @@ make_state_map <- function(pres) {
     z = sub$vote_pct,
     text = hover_txt,
     hoverinfo = "text",
+    hoverlabel = list(
+      bgcolor = "#0f172a",
+      bordercolor = if (identical(p_party, "Republican")) "#ef4444" else "#3b82f6",
+      font = list(family = "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif", size = 13, color = "#ffffff")
+    ),
     colorscale = cscale,
     zmin = 25,
     zmax = 75,
     colorbar = list(
-      title = list(text = "Support (%)", font = list(color = "#94a3b8", size = 12)),
+      title = list(text = "Approval (%)", font = list(color = "#94a3b8", size = 12)),
       tickfont = list(color = "#94a3b8"),
       ticksuffix = "%",
-      len = 0.8
+      len = 0.75
     ),
-    marker = list(line = list(color = "#0f172a", width = 1.2))
+    marker = list(line = list(color = "rgba(255, 255, 255, 0.4)", width = 1))
   ) |>
   layout(
     geo = list(
       scope = "usa",
       projection = list(type = "albers usa"),
       showlakes = TRUE,
-      lakecolor = "rgba(11, 15, 22, 0.95)",
+      lakecolor = "rgba(15, 23, 42, 0.8)",
       bgcolor = "rgba(0,0,0,0)"
     ),
     paper_bgcolor = "rgba(0,0,0,0)",
     plot_bgcolor = "rgba(0,0,0,0)",
+    height = 420,
     margin = list(l = 0, r = 0, t = 10, b = 10)
   ) |>
-  config(displayModeBar = FALSE)
+  config(displayModeBar = FALSE, scrollZoom = FALSE)
   
-  p$preRenderHook <- NULL
   p
 }
 
@@ -160,11 +166,15 @@ tagList(
     best_st <- valid_sub |> slice_max(vote_pct, n = 1, with_ties = FALSE)
     worst_st <- valid_sub |> slice_min(vote_pct, n = 1, with_ties = FALSE)
     avg_support <- round(mean(valid_sub$vote_pct, na.rm = TRUE), 1)
+    states_won <- sum(valid_sub$vote_pct >= 50, na.rm = TRUE)
 
     tags$div(
       id = paste0("pres-state-", i),
       class = "pres-state-container",
-      style = if (i == 1) "display: block;" else "display: none;",
+      style = paste0(
+        if (i == 1) "display: block;" else "display: none;",
+        " padding-bottom: 25px;"
+      ),
       tags$div(
         style = paste0(
           "display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; ",
@@ -197,9 +207,14 @@ tagList(
         tags$div(
           style = "display: flex; gap: 24px; flex-wrap: wrap;",
           tags$div(
-            style = "text-align: right; min-width: 110px;",
-            tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "Avg Support"),
+            style = "text-align: right; min-width: 100px;",
+            tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "Avg Approval"),
             tags$div(style = "font-size: 1.35rem; font-weight: 700; color: #f8fafc;", paste0(avg_support, "%"))
+          ),
+          tags$div(
+            style = "text-align: right; min-width: 100px;",
+            tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "States ≥50%"),
+            tags$div(style = "font-size: 1.35rem; font-weight: 700; color: #34d399;", paste0(states_won, " / ", nrow(valid_sub)))
           ),
           tags$div(
             style = "text-align: right; min-width: 130px;",
@@ -213,7 +228,13 @@ tagList(
           )
         )
       ),
-      maps[[i]]
+      tags$div(
+        style = "display: flex; justify-content: center; width: 100%; margin: 15px auto 25px auto;",
+        tags$div(
+          style = "width: 100%; max-width: 860px; margin: 0 auto;",
+          maps[[i]]
+        )
+      )
     )
   }),
   tags$script(HTML("
@@ -222,6 +243,10 @@ tagList(
       const target = document.getElementById(val);
       if (target) {
         target.style.display = 'block';
+        const plotEl = target.querySelector('.js-plotly-plot');
+        if (plotEl && window.Plotly) {
+          Plotly.Plots.resize(plotEl);
+        }
         window.dispatchEvent(new Event('resize'));
       }
     }

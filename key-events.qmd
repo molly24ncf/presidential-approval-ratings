@@ -2,3 +2,376 @@
 title: "Key Events"
 ---
 
+Presidential approval ratings rarely move in a vacuum; they react violently to national crises, scandals, and historic breakthroughs. Below, we examine two of the most consequential inflection points in modern American polling: the collapse of **Richard Nixon** during the Watergate scandal, and the historic "rally 'round the flag" surge behind **George W. Bush** following the terrorist attacks of September 11, 2001.
+
+## The Watergate Scandal (1972–1974)
+
+We can see that Nixon’s public approval was relatively high throughout most of his term, despite a small dip prior to 1972. But, then in 1973 we saw a major drop off. This can, of course, be explained by the infamous Watergate scandal. In this scandal it was revealed that Nixon, the president who campaigned on peace and honesty, was actually spying on his opponents in the election. This clearly left the public disgusted, causing his approval ratings to plummet and eventually leading to his resignation. 
+
+```{r}
+#| message: false
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(plotly)
+library(htmltools)
+
+# Load monthly approval data
+monthly_data <- read_csv("data/presidential_approval_by_month.csv", show_col_types = FALSE)
+
+# 1. Watergate Data & Milestones
+watergate_data <- monthly_data |>
+  filter(president == "Richard Nixon", year_month >= as.Date("1972-01-01"))
+
+milestones_nixon <- tribble(
+  ~date, ~approval, ~event, ~desc,
+  as.Date("1972-06-01"), 57.5, "Watergate Break-in", "June 17, 1972: Five burglars arrested inside the DNC headquarters.",
+  as.Date("1972-11-01"), 62.0, "Landslide Re-election", "Nov 1972: Nixon re-elected winning 49 of 50 states.",
+  as.Date("1973-02-01"), 65.0, "Second-Term Peak", "Feb 1973: Paris Peace Accords announced; approval hits term peak.",
+  as.Date("1973-05-01"), 43.5, "Senate Hearings Begin", "May 1973: Televised Senate hearings begin; aides resign; approval falls under 50%.",
+  as.Date("1973-07-01"), 39.0, "Secret Tapes Revealed", "July 1973: Alexander Butterfield discloses Oval Office recording system.",
+  as.Date("1973-10-01"), 27.3, "Saturday Night Massacre", "Oct 1973: Special Prosecutor Cox fired; AG Richardson resigns in protest.",
+  as.Date("1974-08-01"), 24.0, "Nixon Resignation", "Aug 8, 1974: Facing imminent House impeachment, Nixon announces resignation."
+)
+
+watergate_full <- watergate_data |>
+  left_join(milestones_nixon |> select(date, event, desc), by = c("year_month" = "date")) |>
+  mutate(
+    is_milestone = !is.na(event),
+    hover_text = ifelse(
+      is_milestone,
+      paste0(
+        "<b>", format(year_month, "%B %Y"), "</b><br>",
+        "Approval Rating: <b>", approval, "%</b><br>",
+        "<span style='color:#ef4444;font-weight:700;'>★ ", event, "</span><br>",
+        "<i>", desc, "</i>"
+      ),
+      paste0(
+        "<b>", format(year_month, "%B %Y"), "</b><br>",
+        "Approval Rating: <b>", approval, "%</b>"
+      )
+    )
+  )
+
+p_nixon <- plot_ly(watergate_full, height = 440) |>
+  add_lines(
+    x = ~year_month,
+    y = ~approval,
+    line = list(color = "#1e3a8a", width = 3),
+    name = "Approval Trend",
+    hoverinfo = "none"
+  ) |>
+  add_markers(
+    data = watergate_full |> filter(!is_milestone),
+    x = ~year_month,
+    y = ~approval,
+    marker = list(color = "#3b82f6", size = 7, line = list(color = "#ffffff", width = 1.5)),
+    text = ~hover_text,
+    hoverinfo = "text",
+    name = "Monthly Gallup Poll"
+  ) |>
+  add_markers(
+    data = watergate_full |> filter(is_milestone),
+    x = ~year_month,
+    y = ~approval,
+    marker = list(color = "#ef4444", size = 12, symbol = "diamond", line = list(color = "#ffffff", width = 2)),
+    text = ~hover_text,
+    hoverinfo = "text",
+    name = "Key Watergate Event"
+  ) |>
+  layout(
+    title = list(
+      text = "<b>The Watergate Collapse: Richard Nixon (1972–1974)</b><br><span style='font-size:12px;color:#64748b;'>Hover over diamond markers to inspect key scandal milestones</span>",
+      x = 0.04,
+      y = 0.96,
+      font = list(family = "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif", size = 16, color = "#0f172a")
+    ),
+    xaxis = list(
+      title = "",
+      tickformat = "%b %Y",
+      dtick = "M3",
+      gridcolor = "#f1f5f9",
+      linecolor = "#cbd5e1"
+    ),
+    yaxis = list(
+      title = "Gallup Approval Rating (%)",
+      range = c(15, 75),
+      ticksuffix = "%",
+      gridcolor = "#f1f5f9",
+      linecolor = "#cbd5e1"
+    ),
+    shapes = list(
+      list(
+        type = "line",
+        x0 = min(watergate_full$year_month),
+        x1 = max(watergate_full$year_month),
+        y0 = 50,
+        y1 = 50,
+        line = list(color = "#94a3b8", width = 1.5, dash = "dash")
+      )
+    ),
+    annotations = list(
+      list(
+        x = as.Date("1972-04-01"),
+        y = 52.5,
+        text = "50% Majority Threshold",
+        showarrow = FALSE,
+        font = list(size = 11, color = "#64748b")
+      )
+    ),
+    hoverlabel = list(
+      bgcolor = "#0f172a",
+      bordercolor = "#ef4444",
+      font = list(family = "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif", size = 13, color = "#ffffff")
+    ),
+    legend = list(
+      orientation = "h",
+      x = 0.04,
+      y = -0.15,
+      font = list(size = 11, color = "#475569")
+    ),
+    margin = list(l = 50, r = 25, t = 60, b = 60)
+  ) |>
+  config(displayModeBar = FALSE, responsive = TRUE)
+
+tagList(
+  tags$div(
+    style = paste0(
+      "display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; ",
+      "margin: 20px 0 25px 0; padding: 18px 24px; background: rgba(255, 255, 255, 0.04); ",
+      "border: 1px solid rgba(255, 255, 255, 0.12); border-left: 6px solid #D9381E; ",
+      "border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.35); backdrop-filter: blur(8px);"
+    ),
+    tags$div(
+      style = "display: flex; align-items: center; gap: 18px;",
+      tags$img(
+        src = "images/presidents/nixon.jpg",
+        alt = "Richard Nixon portrait",
+        style = "width: 75px; height: 95px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
+      ),
+      tags$div(
+        tags$h3(style = "margin: 0 0 6px 0; font-size: 1.4rem; font-weight: 700; color: #ffffff;", "Richard Nixon (1969–1974)"),
+        tags$div(
+          style = "display: flex; align-items: center; gap: 10px; flex-wrap: wrap;",
+          tags$span(
+            style = "display: inline-block; padding: 3px 12px; font-size: 0.85rem; font-weight: 600; color: #fff; background-color: #D9381E; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.3);",
+            "Republican"
+          ),
+          tags$span(
+            style = "color: #94a3b8; font-size: 0.95rem; font-weight: 500;",
+            "Crisis Timeline: 1972–1974"
+          )
+        )
+      )
+    ),
+    tags$div(
+      style = "display: flex; gap: 24px; flex-wrap: wrap;",
+      tags$div(
+        style = "text-align: right; min-width: 95px;",
+        tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "Peak"),
+        tags$div(style = "font-size: 1.35rem; font-weight: 700; color: #38bdf8;", "65.0%")
+      ),
+      tags$div(
+        style = "text-align: right; min-width: 95px;",
+        tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "Final"),
+        tags$div(style = "font-size: 1.35rem; font-weight: 700; color: #f87171;", "24.0%")
+      ),
+      tags$div(
+        style = "text-align: right; min-width: 95px;",
+        tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "Total Drop"),
+        tags$div(style = "font-size: 1.35rem; font-weight: 700; color: #ef4444;", "-41 pts")
+      )
+    )
+  ),
+  tags$div(
+    style = "display: flex; justify-content: center; width: 100%; margin: 10px auto 35px auto;",
+    tags$div(
+      style = "width: 100%; max-width: 880px; margin: 0 auto;",
+      p_nixon
+    )
+  )
+)
+```
+
+## The September 11 Surge (2001–2003)
+
+At the beginning of his presidency, Bush had pretty average ratings, but towards the end of 2001, following the attacks of 9/11 we observed a major spike, with his approval ratings jumping to 88%, an all time high of any president. This can be explained by the immense amount of patriotism and unity felt around the country following a devastating event that left many people not knowing what would come next, they looked to their leader for answers.
+
+```{r}
+#| message: false
+#| echo: false
+#| warning: false
+
+# 2. 9/11 Data & Milestones
+rally_data <- monthly_data |>
+  filter(president == "George W. Bush", year_month >= as.Date("2001-01-01"), year_month <= as.Date("2003-12-01"))
+
+milestones_bush <- tribble(
+  ~date, ~approval, ~event, ~desc,
+  as.Date("2001-08-01"), 56.0, "Pre-9/11 Baseline", "Aug 2001: Bush approval sits at 56% amidst post-2000 election polarization.",
+  as.Date("2001-09-01"), 75.0, "September 11 Attacks", "Sept 2001: Terrorist attacks strike NYC & DC; Gallup single poll hits record 90%.",
+  as.Date("2001-10-01"), 88.0, "Afghanistan War Launched", "Oct 2001: Operation Enduring Freedom begins; monthly average peaks at 88%.",
+  as.Date("2002-01-01"), 83.0, "Axis of Evil Address", "Jan 2002: State of the Union address; approval sustains above 80%.",
+  as.Date("2002-11-01"), 65.7, "2002 Midterm Elections", "Nov 2002: Republicans expand Congressional majorities in rare midterm pickup.",
+  as.Date("2003-04-01"), 69.5, "Invasion of Iraq", "Apr 2003: US forces take Baghdad; secondary wartime rally approaches 70%."
+)
+
+rally_full <- rally_data |>
+  left_join(milestones_bush |> select(date, event, desc), by = c("year_month" = "date")) |>
+  mutate(
+    is_milestone = !is.na(event),
+    hover_text = ifelse(
+      is_milestone,
+      paste0(
+        "<b>", format(year_month, "%B %Y"), "</b><br>",
+        "Approval Rating: <b>", approval, "%</b><br>",
+        "<span style='color:#2563eb;font-weight:700;'>★ ", event, "</span><br>",
+        "<i>", desc, "</i>"
+      ),
+      paste0(
+        "<b>", format(year_month, "%B %Y"), "</b><br>",
+        "Approval Rating: <b>", approval, "%</b>"
+      )
+    )
+  )
+
+p_bush <- plot_ly(rally_full, height = 440) |>
+  add_lines(
+    x = ~year_month,
+    y = ~approval,
+    line = list(color = "#1e3a8a", width = 3),
+    name = "Approval Trend",
+    hoverinfo = "none"
+  ) |>
+  add_markers(
+    data = rally_full |> filter(!is_milestone),
+    x = ~year_month,
+    y = ~approval,
+    marker = list(color = "#64748b", size = 7, line = list(color = "#ffffff", width = 1.5)),
+    text = ~hover_text,
+    hoverinfo = "text",
+    name = "Monthly Gallup Poll"
+  ) |>
+  add_markers(
+    data = rally_full |> filter(is_milestone),
+    x = ~year_month,
+    y = ~approval,
+    marker = list(color = "#2563eb", size = 12, symbol = "diamond", line = list(color = "#ffffff", width = 2)),
+    text = ~hover_text,
+    hoverinfo = "text",
+    name = "Key Crisis Milestone"
+  ) |>
+  layout(
+    title = list(
+      text = "<b>The 9/11 Rally Surge: George W. Bush (2001–2003)</b><br><span style='font-size:12px;color:#64748b;'>Hover over diamond markers to inspect key crisis milestones</span>",
+      x = 0.04,
+      y = 0.96,
+      font = list(family = "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif", size = 16, color = "#0f172a")
+    ),
+    xaxis = list(
+      title = "",
+      tickformat = "%b %Y",
+      dtick = "M3",
+      gridcolor = "#f1f5f9",
+      linecolor = "#cbd5e1"
+    ),
+    yaxis = list(
+      title = "Gallup Approval Rating (%)",
+      range = c(45, 95),
+      ticksuffix = "%",
+      gridcolor = "#f1f5f9",
+      linecolor = "#cbd5e1"
+    ),
+    shapes = list(
+      list(
+        type = "line",
+        x0 = min(rally_full$year_month),
+        x1 = max(rally_full$year_month),
+        y0 = 50,
+        y1 = 50,
+        line = list(color = "#94a3b8", width = 1.5, dash = "dash")
+      )
+    ),
+    annotations = list(
+      list(
+        x = as.Date("2001-03-01"),
+        y = 52.5,
+        text = "50% Majority Threshold",
+        showarrow = FALSE,
+        font = list(size = 11, color = "#64748b")
+      )
+    ),
+    hoverlabel = list(
+      bgcolor = "#0f172a",
+      bordercolor = "#2563eb",
+      font = list(family = "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif", size = 13, color = "#ffffff")
+    ),
+    legend = list(
+      orientation = "h",
+      x = 0.04,
+      y = -0.15,
+      font = list(size = 11, color = "#475569")
+    ),
+    margin = list(l = 50, r = 25, t = 60, b = 60)
+  ) |>
+  config(displayModeBar = FALSE, responsive = TRUE)
+
+tagList(
+  tags$div(
+    style = paste0(
+      "display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; ",
+      "margin: 20px 0 25px 0; padding: 18px 24px; background: rgba(255, 255, 255, 0.04); ",
+      "border: 1px solid rgba(255, 255, 255, 0.12); border-left: 6px solid #D9381E; ",
+      "border-radius: 12px; box-shadow: 0 4px 18px rgba(0,0,0,0.35); backdrop-filter: blur(8px);"
+    ),
+    tags$div(
+      style = "display: flex; align-items: center; gap: 18px;",
+      tags$img(
+        src = "images/presidents/bush43.jpg",
+        alt = "George W. Bush portrait",
+        style = "width: 75px; height: 95px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
+      ),
+      tags$div(
+        tags$h3(style = "margin: 0 0 6px 0; font-size: 1.4rem; font-weight: 700; color: #ffffff;", "George W. Bush (2001–2009)"),
+        tags$div(
+          style = "display: flex; align-items: center; gap: 10px; flex-wrap: wrap;",
+          tags$span(
+            style = "display: inline-block; padding: 3px 12px; font-size: 0.85rem; font-weight: 600; color: #fff; background-color: #D9381E; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.3);",
+            "Republican"
+          ),
+          tags$span(
+            style = "color: #94a3b8; font-size: 0.95rem; font-weight: 500;",
+            "Crisis Timeline: 2001–2003"
+          )
+        )
+      )
+    ),
+    tags$div(
+      style = "display: flex; gap: 24px; flex-wrap: wrap;",
+      tags$div(
+        style = "text-align: right; min-width: 95px;",
+        tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "Pre-9/11"),
+        tags$div(style = "font-size: 1.35rem; font-weight: 700; color: #94a3b8;", "56.0%")
+      ),
+      tags$div(
+        style = "text-align: right; min-width: 95px;",
+        tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "Peak"),
+        tags$div(style = "font-size: 1.35rem; font-weight: 700; color: #38bdf8;", "88.0%")
+      ),
+      tags$div(
+        style = "text-align: right; min-width: 95px;",
+        tags$div(style = "font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8;", "Net Surge"),
+        tags$div(style = "font-size: 1.35rem; font-weight: 700; color: #34d399;", "+32 pts")
+      )
+    )
+  ),
+  tags$div(
+    style = "display: flex; justify-content: center; width: 100%; margin: 10px auto 35px auto;",
+    tags$div(
+      style = "width: 100%; max-width: 880px; margin: 0 auto;",
+      p_bush
+    )
+  )
+)
+```

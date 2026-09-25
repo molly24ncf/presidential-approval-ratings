@@ -120,7 +120,8 @@ make_anim_plot <- function(pres) {
     frame = ~frame,
     type = "scatter",
     mode = "lines+markers",
-    connectgaps = TRUE
+    connectgaps = TRUE,
+    height = 500
   ) |>
     layout(
       title = list(
@@ -131,11 +132,11 @@ make_anim_plot <- function(pres) {
         },
         x = 0.5,
         xanchor = "center",
-        y = 0.96,
-        font = list(size = 17)
+        y = 0.98,
+        font = list(size = 16)
       ),
-      margin = list(t = if (sub_text == "") 60 else 75, b = 60),
-      xaxis = list(title = "Date", range = c(min(dates), max(dates))),
+      margin = list(t = if (sub_text == "") 75 else 90, b = 105, l = 55, r = 30),
+      xaxis = list(title = "", range = c(min(dates), max(dates))),
       yaxis = list(title = "Rating (%)", range = c(0, 100)),
       shapes = list(
         list(
@@ -148,14 +149,32 @@ make_anim_plot <- function(pres) {
           line = list(color = "grey60", dash = "dash", width = 1)
         )
       ),
-      legend = list(orientation = "h", x = 0.05, y = -0.2)
+      legend = list(orientation = "h", x = 0.05, y = 1.08, font = list(size = 11))
     ) |>
     animation_opts(frame = 80, transition = 40, easing = "linear") |>
-    animation_button(x = 0, y = -0.15, label = "▶ Play Trend") |>
-    animation_slider(currentvalue = list(prefix = "Date: ")) |>
-    config(displayModeBar = FALSE)
+    animation_button(x = 0, y = 0, label = "▶ Play Trend") |>
+    animation_slider(currentvalue = list(prefix = "Date: ", font = list(size = 13, color = "#475569"))) |>
+    config(displayModeBar = FALSE, responsive = TRUE)
 
   b <- suppressWarnings(plotly_build(fig))
+
+  # Clean up slider steps and position so controls fit comfortably with ample breathing room
+  if (length(b$x$layout$sliders) > 0 && length(b$x$layout$sliders[[1]]$steps) > 0) {
+    b$x$layout$sliders[[1]]$steps <- lapply(b$x$layout$sliders[[1]]$steps, function(s) {
+      s$label <- ""
+      s
+    })
+    b$x$layout$sliders[[1]]$pad <- list(t = 15, b = 5)
+    b$x$layout$sliders[[1]]$len <- 0.82
+    b$x$layout$sliders[[1]]$x <- 0.16
+    b$x$layout$sliders[[1]]$y <- 0
+  }
+
+  if (length(b$x$layout$updatemenus) > 0) {
+    b$x$layout$updatemenus[[1]]$pad <- list(t = 28, r = 5)
+    b$x$layout$updatemenus[[1]]$y <- 0
+    b$x$layout$updatemenus[[1]]$x <- 0
+  }
 
   # Ensure base traces match exact order of levels_present
   last_f <- b$x$frames[[length(b$x$frames)]]$data
@@ -260,7 +279,10 @@ tagList(
           )
         )
       ),
-      plots[[i]]
+      tags$div(
+        style = "width: 100%; max-width: 100%; margin: 15px 0 25px 0;",
+        plots[[i]]
+      )
     )
   }),
   tags$script(HTML("
@@ -272,6 +294,10 @@ tagList(
       const target = document.getElementById(val);
       if (target) {
         target.style.display = 'block';
+        const plotEl = target.querySelector('.js-plotly-plot');
+        if (plotEl && window.Plotly) {
+          Plotly.Plots.resize(plotEl);
+        }
         window.dispatchEvent(new Event('resize'));
         applyCurrentMetricFilter();
       }
