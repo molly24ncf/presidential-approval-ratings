@@ -1,5 +1,5 @@
 ---
-title: "Exploration"
+title: "Presidents"
 ---
 
 Use the dropdown menus below to select an administration and compare ratings over time: **Public Approval**, **Congressional Approval**, and **Party Favorability**. Click **▶ Play Trend** to animate the ratings month-by-month over the president's term, or use the filter menu to toggle individual trends.

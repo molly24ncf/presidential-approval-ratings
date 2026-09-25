@@ -1,0 +1,759 @@
+president,party,election_year,state,state_po,vote_pct
+Harry Truman,Democrat,1948,Alabama,AL,0
+Harry Truman,Democrat,1948,Arizona,AZ,53.8
+Harry Truman,Democrat,1948,Arkansas,AR,61.7
+Harry Truman,Democrat,1948,California,CA,47.6
+Harry Truman,Democrat,1948,Colorado,CO,51.9
+Harry Truman,Democrat,1948,Connecticut,CT,47.9
+Harry Truman,Democrat,1948,Delaware,DE,48.8
+Harry Truman,Democrat,1948,Florida,FL,48.8
+Harry Truman,Democrat,1948,Georgia,GA,60.8
+Harry Truman,Democrat,1948,Idaho,ID,50
+Harry Truman,Democrat,1948,Illinois,IL,50.1
+Harry Truman,Democrat,1948,Indiana,IN,48.8
+Harry Truman,Democrat,1948,Iowa,IA,50.3
+Harry Truman,Democrat,1948,Kansas,KS,44.6
+Harry Truman,Democrat,1948,Kentucky,KY,56.7
+Harry Truman,Democrat,1948,Louisiana,LA,32.7
+Harry Truman,Democrat,1948,Maine,ME,42.3
+Harry Truman,Democrat,1948,Maryland,MD,48
+Harry Truman,Democrat,1948,Massachusetts,MA,54.7
+Harry Truman,Democrat,1948,Michigan,MI,47.6
+Harry Truman,Democrat,1948,Minnesota,MN,57.2
+Harry Truman,Democrat,1948,Mississippi,MS,10.1
+Harry Truman,Democrat,1948,Missouri,MO,58.1
+Harry Truman,Democrat,1948,Montana,MT,53.1
+Harry Truman,Democrat,1948,Nebraska,NE,45.8
+Harry Truman,Democrat,1948,Nevada,NV,50.4
+Harry Truman,Democrat,1948,New Hampshire,NH,46.7
+Harry Truman,Democrat,1948,New Jersey,NJ,45.9
+Harry Truman,Democrat,1948,New Mexico,NM,56.4
+Harry Truman,Democrat,1948,New York,NY,45
+Harry Truman,Democrat,1948,North Carolina,NC,58
+Harry Truman,Democrat,1948,North Dakota,ND,43.4
+Harry Truman,Democrat,1948,Ohio,OH,49.5
+Harry Truman,Democrat,1948,Oklahoma,OK,62.7
+Harry Truman,Democrat,1948,Oregon,OR,46.4
+Harry Truman,Democrat,1948,Pennsylvania,PA,46.9
+Harry Truman,Democrat,1948,Rhode Island,RI,57.6
+Harry Truman,Democrat,1948,South Carolina,SC,24.1
+Harry Truman,Democrat,1948,South Dakota,SD,47
+Harry Truman,Democrat,1948,Tennessee,TN,49.1
+Harry Truman,Democrat,1948,Texas,TX,65.4
+Harry Truman,Democrat,1948,Utah,UT,54
+Harry Truman,Democrat,1948,Vermont,VT,36.9
+Harry Truman,Democrat,1948,Virginia,VA,47.9
+Harry Truman,Democrat,1948,Washington,WA,52.6
+Harry Truman,Democrat,1948,West Virginia,WV,57.3
+Harry Truman,Democrat,1948,Wisconsin,WI,50.7
+Harry Truman,Democrat,1948,Wyoming,WY,51.6
+Dwight Eisenhower,Republican,1952,Alabama,AL,35
+Dwight Eisenhower,Republican,1952,Arizona,AZ,58.3
+Dwight Eisenhower,Republican,1952,Arkansas,AR,43.8
+Dwight Eisenhower,Republican,1952,California,CA,56.3
+Dwight Eisenhower,Republican,1952,Colorado,CO,60.3
+Dwight Eisenhower,Republican,1952,Connecticut,CT,55.7
+Dwight Eisenhower,Republican,1952,Delaware,DE,51.8
+Dwight Eisenhower,Republican,1952,Florida,FL,55
+Dwight Eisenhower,Republican,1952,Georgia,GA,30.3
+Dwight Eisenhower,Republican,1952,Idaho,ID,65.4
+Dwight Eisenhower,Republican,1952,Illinois,IL,54.8
+Dwight Eisenhower,Republican,1952,Indiana,IN,58.1
+Dwight Eisenhower,Republican,1952,Iowa,IA,63.8
+Dwight Eisenhower,Republican,1952,Kansas,KS,68.8
+Dwight Eisenhower,Republican,1952,Kentucky,KY,49.8
+Dwight Eisenhower,Republican,1952,Louisiana,LA,47.1
+Dwight Eisenhower,Republican,1952,Maine,ME,66
+Dwight Eisenhower,Republican,1952,Maryland,MD,55.4
+Dwight Eisenhower,Republican,1952,Massachusetts,MA,54.2
+Dwight Eisenhower,Republican,1952,Michigan,MI,55.4
+Dwight Eisenhower,Republican,1952,Minnesota,MN,55.3
+Dwight Eisenhower,Republican,1952,Mississippi,MS,39.6
+Dwight Eisenhower,Republican,1952,Missouri,MO,50.7
+Dwight Eisenhower,Republican,1952,Montana,MT,59.4
+Dwight Eisenhower,Republican,1952,Nebraska,NE,69.2
+Dwight Eisenhower,Republican,1952,Nevada,NV,61.4
+Dwight Eisenhower,Republican,1952,New Hampshire,NH,60.9
+Dwight Eisenhower,Republican,1952,New Jersey,NJ,56.8
+Dwight Eisenhower,Republican,1952,New Mexico,NM,55.4
+Dwight Eisenhower,Republican,1952,New York,NY,55.5
+Dwight Eisenhower,Republican,1952,North Carolina,NC,46.1
+Dwight Eisenhower,Republican,1952,North Dakota,ND,71
+Dwight Eisenhower,Republican,1952,Ohio,OH,56.8
+Dwight Eisenhower,Republican,1952,Oklahoma,OK,54.6
+Dwight Eisenhower,Republican,1952,Oregon,OR,60.5
+Dwight Eisenhower,Republican,1952,Pennsylvania,PA,52.7
+Dwight Eisenhower,Republican,1952,Rhode Island,RI,50.9
+Dwight Eisenhower,Republican,1952,South Carolina,SC,2.9
+Dwight Eisenhower,Republican,1952,South Dakota,SD,69.3
+Dwight Eisenhower,Republican,1952,Tennessee,TN,50
+Dwight Eisenhower,Republican,1952,Texas,TX,53.1
+Dwight Eisenhower,Republican,1952,Utah,UT,58.9
+Dwight Eisenhower,Republican,1952,Vermont,VT,71.5
+Dwight Eisenhower,Republican,1952,Virginia,VA,56.3
+Dwight Eisenhower,Republican,1952,Washington,WA,54.3
+Dwight Eisenhower,Republican,1952,West Virginia,WV,48.1
+Dwight Eisenhower,Republican,1952,Wisconsin,WI,61
+Dwight Eisenhower,Republican,1952,Wyoming,WY,62.7
+John F. Kennedy,Democrat,1960,Alabama,AL,56.8
+John F. Kennedy,Democrat,1960,Alaska,AK,49.1
+John F. Kennedy,Democrat,1960,Arizona,AZ,44.4
+John F. Kennedy,Democrat,1960,Arkansas,AR,50.2
+John F. Kennedy,Democrat,1960,California,CA,49.6
+John F. Kennedy,Democrat,1960,Colorado,CO,44.9
+John F. Kennedy,Democrat,1960,Connecticut,CT,53.7
+John F. Kennedy,Democrat,1960,Delaware,DE,50.6
+John F. Kennedy,Democrat,1960,Florida,FL,48.5
+John F. Kennedy,Democrat,1960,Georgia,GA,62.5
+John F. Kennedy,Democrat,1960,Hawaii,HI,50
+John F. Kennedy,Democrat,1960,Idaho,ID,46.2
+John F. Kennedy,Democrat,1960,Illinois,IL,50
+John F. Kennedy,Democrat,1960,Indiana,IN,44.6
+John F. Kennedy,Democrat,1960,Iowa,IA,43.2
+John F. Kennedy,Democrat,1960,Kansas,KS,39.1
+John F. Kennedy,Democrat,1960,Kentucky,KY,46.4
+John F. Kennedy,Democrat,1960,Louisiana,LA,50.4
+John F. Kennedy,Democrat,1960,Maine,ME,43
+John F. Kennedy,Democrat,1960,Maryland,MD,53.6
+John F. Kennedy,Democrat,1960,Massachusetts,MA,60.2
+John F. Kennedy,Democrat,1960,Michigan,MI,50.9
+John F. Kennedy,Democrat,1960,Minnesota,MN,50.6
+John F. Kennedy,Democrat,1960,Mississippi,MS,36.3
+John F. Kennedy,Democrat,1960,Missouri,MO,50.3
+John F. Kennedy,Democrat,1960,Montana,MT,48.6
+John F. Kennedy,Democrat,1960,Nebraska,NE,37.9
+John F. Kennedy,Democrat,1960,Nevada,NV,51.2
+John F. Kennedy,Democrat,1960,New Hampshire,NH,46.6
+John F. Kennedy,Democrat,1960,New Jersey,NJ,50
+John F. Kennedy,Democrat,1960,New Mexico,NM,50.2
+John F. Kennedy,Democrat,1960,New York,NY,52.5
+John F. Kennedy,Democrat,1960,North Carolina,NC,52.1
+John F. Kennedy,Democrat,1960,North Dakota,ND,44.5
+John F. Kennedy,Democrat,1960,Ohio,OH,46.7
+John F. Kennedy,Democrat,1960,Oklahoma,OK,41
+John F. Kennedy,Democrat,1960,Oregon,OR,47.3
+John F. Kennedy,Democrat,1960,Pennsylvania,PA,51.1
+John F. Kennedy,Democrat,1960,Rhode Island,RI,63.6
+John F. Kennedy,Democrat,1960,South Carolina,SC,51.2
+John F. Kennedy,Democrat,1960,South Dakota,SD,41.8
+John F. Kennedy,Democrat,1960,Tennessee,TN,45.8
+John F. Kennedy,Democrat,1960,Texas,TX,50.5
+John F. Kennedy,Democrat,1960,Utah,UT,45.2
+John F. Kennedy,Democrat,1960,Vermont,VT,41.3
+John F. Kennedy,Democrat,1960,Virginia,VA,47
+John F. Kennedy,Democrat,1960,Washington,WA,48.3
+John F. Kennedy,Democrat,1960,West Virginia,WV,52.7
+John F. Kennedy,Democrat,1960,Wisconsin,WI,48
+John F. Kennedy,Democrat,1960,Wyoming,WY,45
+Lyndon Johnson,Democrat,1964,Alabama,AL,0
+Lyndon Johnson,Democrat,1964,Alaska,AK,65.9
+Lyndon Johnson,Democrat,1964,Arizona,AZ,49.5
+Lyndon Johnson,Democrat,1964,Arkansas,AR,56.1
+Lyndon Johnson,Democrat,1964,California,CA,59.1
+Lyndon Johnson,Democrat,1964,Colorado,CO,61.3
+Lyndon Johnson,Democrat,1964,Connecticut,CT,67.8
+Lyndon Johnson,Democrat,1964,Delaware,DE,60.9
+Lyndon Johnson,Democrat,1964,District of Columbia,DC,85.5
+Lyndon Johnson,Democrat,1964,Florida,FL,51.1
+Lyndon Johnson,Democrat,1964,Georgia,GA,45.9
+Lyndon Johnson,Democrat,1964,Hawaii,HI,78.8
+Lyndon Johnson,Democrat,1964,Idaho,ID,50.9
+Lyndon Johnson,Democrat,1964,Illinois,IL,59.5
+Lyndon Johnson,Democrat,1964,Indiana,IN,56
+Lyndon Johnson,Democrat,1964,Iowa,IA,61.9
+Lyndon Johnson,Democrat,1964,Kansas,KS,54.1
+Lyndon Johnson,Democrat,1964,Kentucky,KY,64
+Lyndon Johnson,Democrat,1964,Louisiana,LA,43.2
+Lyndon Johnson,Democrat,1964,Maine,ME,68.8
+Lyndon Johnson,Democrat,1964,Maryland,MD,65.5
+Lyndon Johnson,Democrat,1964,Massachusetts,MA,76.2
+Lyndon Johnson,Democrat,1964,Michigan,MI,66.7
+Lyndon Johnson,Democrat,1964,Minnesota,MN,63.8
+Lyndon Johnson,Democrat,1964,Mississippi,MS,12.9
+Lyndon Johnson,Democrat,1964,Missouri,MO,64
+Lyndon Johnson,Democrat,1964,Montana,MT,58.9
+Lyndon Johnson,Democrat,1964,Nebraska,NE,52.6
+Lyndon Johnson,Democrat,1964,Nevada,NV,58.6
+Lyndon Johnson,Democrat,1964,New Hampshire,NH,63.9
+Lyndon Johnson,Democrat,1964,New Jersey,NJ,65.6
+Lyndon Johnson,Democrat,1964,New Mexico,NM,59
+Lyndon Johnson,Democrat,1964,New York,NY,68.6
+Lyndon Johnson,Democrat,1964,North Carolina,NC,56.2
+Lyndon Johnson,Democrat,1964,North Dakota,ND,58
+Lyndon Johnson,Democrat,1964,Ohio,OH,62.9
+Lyndon Johnson,Democrat,1964,Oklahoma,OK,55.7
+Lyndon Johnson,Democrat,1964,Oregon,OR,63.7
+Lyndon Johnson,Democrat,1964,Pennsylvania,PA,64.9
+Lyndon Johnson,Democrat,1964,Rhode Island,RI,80.9
+Lyndon Johnson,Democrat,1964,South Carolina,SC,41.1
+Lyndon Johnson,Democrat,1964,South Dakota,SD,55.6
+Lyndon Johnson,Democrat,1964,Tennessee,TN,55.5
+Lyndon Johnson,Democrat,1964,Texas,TX,63.3
+Lyndon Johnson,Democrat,1964,Utah,UT,54.7
+Lyndon Johnson,Democrat,1964,Vermont,VT,66.3
+Lyndon Johnson,Democrat,1964,Virginia,VA,53.5
+Lyndon Johnson,Democrat,1964,Washington,WA,62
+Lyndon Johnson,Democrat,1964,West Virginia,WV,67.9
+Lyndon Johnson,Democrat,1964,Wisconsin,WI,62.1
+Lyndon Johnson,Democrat,1964,Wyoming,WY,56.6
+Richard Nixon,Republican,1968,Alabama,AL,14
+Richard Nixon,Republican,1968,Alaska,AK,45.3
+Richard Nixon,Republican,1968,Arizona,AZ,54.8
+Richard Nixon,Republican,1968,Arkansas,AR,30.8
+Richard Nixon,Republican,1968,California,CA,47.8
+Richard Nixon,Republican,1968,Colorado,CO,50.5
+Richard Nixon,Republican,1968,Connecticut,CT,44.3
+Richard Nixon,Republican,1968,Delaware,DE,45.1
+Richard Nixon,Republican,1968,District of Columbia,DC,18.2
+Richard Nixon,Republican,1968,Florida,FL,40.5
+Richard Nixon,Republican,1968,Georgia,GA,30.4
+Richard Nixon,Republican,1968,Hawaii,HI,38.7
+Richard Nixon,Republican,1968,Idaho,ID,56.8
+Richard Nixon,Republican,1968,Illinois,IL,47.1
+Richard Nixon,Republican,1968,Indiana,IN,50.3
+Richard Nixon,Republican,1968,Iowa,IA,53
+Richard Nixon,Republican,1968,Kansas,KS,54.8
+Richard Nixon,Republican,1968,Kentucky,KY,43.8
+Richard Nixon,Republican,1968,Louisiana,LA,23.5
+Richard Nixon,Republican,1968,Maine,ME,43.1
+Richard Nixon,Republican,1968,Maryland,MD,41.9
+Richard Nixon,Republican,1968,Massachusetts,MA,32.9
+Richard Nixon,Republican,1968,Michigan,MI,41.5
+Richard Nixon,Republican,1968,Minnesota,MN,41.5
+Richard Nixon,Republican,1968,Mississippi,MS,13.5
+Richard Nixon,Republican,1968,Missouri,MO,44.9
+Richard Nixon,Republican,1968,Montana,MT,50.6
+Richard Nixon,Republican,1968,Nebraska,NE,59.8
+Richard Nixon,Republican,1968,Nevada,NV,47.5
+Richard Nixon,Republican,1968,New Hampshire,NH,52.1
+Richard Nixon,Republican,1968,New Jersey,NJ,46.1
+Richard Nixon,Republican,1968,New Mexico,NM,51.8
+Richard Nixon,Republican,1968,New York,NY,44.3
+Richard Nixon,Republican,1968,North Carolina,NC,39.5
+Richard Nixon,Republican,1968,North Dakota,ND,55.9
+Richard Nixon,Republican,1968,Ohio,OH,45.2
+Richard Nixon,Republican,1968,Oklahoma,OK,47.7
+Richard Nixon,Republican,1968,Oregon,OR,49.8
+Richard Nixon,Republican,1968,Pennsylvania,PA,44
+Richard Nixon,Republican,1968,Rhode Island,RI,31.8
+Richard Nixon,Republican,1968,South Carolina,SC,38.1
+Richard Nixon,Republican,1968,South Dakota,SD,53.3
+Richard Nixon,Republican,1968,Tennessee,TN,37.8
+Richard Nixon,Republican,1968,Texas,TX,39.9
+Richard Nixon,Republican,1968,Utah,UT,56.5
+Richard Nixon,Republican,1968,Vermont,VT,52.8
+Richard Nixon,Republican,1968,Virginia,VA,43.4
+Richard Nixon,Republican,1968,Washington,WA,45.1
+Richard Nixon,Republican,1968,West Virginia,WV,40.8
+Richard Nixon,Republican,1968,Wisconsin,WI,47.9
+Richard Nixon,Republican,1968,Wyoming,WY,55.8
+Gerald Ford,Republican,1976,Alabama,AL,42.6
+Gerald Ford,Republican,1976,Alaska,AK,57.9
+Gerald Ford,Republican,1976,Arizona,AZ,56.4
+Gerald Ford,Republican,1976,Arkansas,AR,34.9
+Gerald Ford,Republican,1976,California,CA,49.7
+Gerald Ford,Republican,1976,Colorado,CO,54
+Gerald Ford,Republican,1976,Connecticut,CT,51.9
+Gerald Ford,Republican,1976,Delaware,DE,46.6
+Gerald Ford,Republican,1976,District of Columbia,DC,16.5
+Gerald Ford,Republican,1976,Florida,FL,46.6
+Gerald Ford,Republican,1976,Georgia,GA,33.1
+Gerald Ford,Republican,1976,Hawaii,HI,48.1
+Gerald Ford,Republican,1976,Idaho,ID,59.9
+Gerald Ford,Republican,1976,Illinois,IL,50.1
+Gerald Ford,Republican,1976,Indiana,IN,53.3
+Gerald Ford,Republican,1976,Iowa,IA,49.5
+Gerald Ford,Republican,1976,Kansas,KS,52.5
+Gerald Ford,Republican,1976,Kentucky,KY,45.6
+Gerald Ford,Republican,1976,Louisiana,LA,46
+Gerald Ford,Republican,1976,Maine,ME,48.9
+Gerald Ford,Republican,1976,Maryland,MD,47
+Gerald Ford,Republican,1976,Massachusetts,MA,40.4
+Gerald Ford,Republican,1976,Michigan,MI,51.9
+Gerald Ford,Republican,1976,Minnesota,MN,42
+Gerald Ford,Republican,1976,Mississippi,MS,47.7
+Gerald Ford,Republican,1976,Missouri,MO,47.5
+Gerald Ford,Republican,1976,Montana,MT,52.8
+Gerald Ford,Republican,1976,Nebraska,NE,59.2
+Gerald Ford,Republican,1976,Nevada,NV,50.2
+Gerald Ford,Republican,1976,New Hampshire,NH,54.7
+Gerald Ford,Republican,1976,New Jersey,NJ,50.1
+Gerald Ford,Republican,1976,New Mexico,NM,50.7
+Gerald Ford,Republican,1976,New York,NY,46.5
+Gerald Ford,Republican,1976,North Carolina,NC,44.2
+Gerald Ford,Republican,1976,North Dakota,ND,51.7
+Gerald Ford,Republican,1976,Ohio,OH,48.7
+Gerald Ford,Republican,1976,Oklahoma,OK,50
+Gerald Ford,Republican,1976,Oregon,OR,47.8
+Gerald Ford,Republican,1976,Pennsylvania,PA,47.7
+Gerald Ford,Republican,1976,Rhode Island,RI,44.1
+Gerald Ford,Republican,1976,South Carolina,SC,43.1
+Gerald Ford,Republican,1976,South Dakota,SD,50.4
+Gerald Ford,Republican,1976,Tennessee,TN,42.9
+Gerald Ford,Republican,1976,Texas,TX,48
+Gerald Ford,Republican,1976,Utah,UT,62.4
+Gerald Ford,Republican,1976,Vermont,VT,54.6
+Gerald Ford,Republican,1976,Virginia,VA,49.3
+Gerald Ford,Republican,1976,Washington,WA,50
+Gerald Ford,Republican,1976,West Virginia,WV,41.9
+Gerald Ford,Republican,1976,Wisconsin,WI,47.8
+Gerald Ford,Republican,1976,Wyoming,WY,59.3
+Jimmy Carter,Democrat,1976,Alabama,AL,55.7
+Jimmy Carter,Democrat,1976,Alaska,AK,35.7
+Jimmy Carter,Democrat,1976,Arizona,AZ,39.8
+Jimmy Carter,Democrat,1976,Arkansas,AR,65
+Jimmy Carter,Democrat,1976,California,CA,48
+Jimmy Carter,Democrat,1976,Colorado,CO,42.6
+Jimmy Carter,Democrat,1976,Connecticut,CT,46.7
+Jimmy Carter,Democrat,1976,Delaware,DE,52
+Jimmy Carter,Democrat,1976,District of Columbia,DC,81.6
+Jimmy Carter,Democrat,1976,Florida,FL,51.9
+Jimmy Carter,Democrat,1976,Georgia,GA,66.9
+Jimmy Carter,Democrat,1976,Hawaii,HI,50.6
+Jimmy Carter,Democrat,1976,Idaho,ID,37.1
+Jimmy Carter,Democrat,1976,Illinois,IL,48.1
+Jimmy Carter,Democrat,1976,Indiana,IN,45.7
+Jimmy Carter,Democrat,1976,Iowa,IA,48.5
+Jimmy Carter,Democrat,1976,Kansas,KS,44.9
+Jimmy Carter,Democrat,1976,Kentucky,KY,52.8
+Jimmy Carter,Democrat,1976,Louisiana,LA,51.8
+Jimmy Carter,Democrat,1976,Maine,ME,48.1
+Jimmy Carter,Democrat,1976,Maryland,MD,53
+Jimmy Carter,Democrat,1976,Massachusetts,MA,56.1
+Jimmy Carter,Democrat,1976,Michigan,MI,46.5
+Jimmy Carter,Democrat,1976,Minnesota,MN,54.9
+Jimmy Carter,Democrat,1976,Mississippi,MS,49.6
+Jimmy Carter,Democrat,1976,Missouri,MO,51.1
+Jimmy Carter,Democrat,1976,Montana,MT,45.4
+Jimmy Carter,Democrat,1976,Nebraska,NE,38.4
+Jimmy Carter,Democrat,1976,Nevada,NV,45.8
+Jimmy Carter,Democrat,1976,New Hampshire,NH,43.5
+Jimmy Carter,Democrat,1976,New Jersey,NJ,47.9
+Jimmy Carter,Democrat,1976,New Mexico,NM,48.3
+Jimmy Carter,Democrat,1976,New York,NY,50.8
+Jimmy Carter,Democrat,1976,North Carolina,NC,55.3
+Jimmy Carter,Democrat,1976,North Dakota,ND,45.8
+Jimmy Carter,Democrat,1976,Ohio,OH,48.9
+Jimmy Carter,Democrat,1976,Oklahoma,OK,48.7
+Jimmy Carter,Democrat,1976,Oregon,OR,47.6
+Jimmy Carter,Democrat,1976,Pennsylvania,PA,50.4
+Jimmy Carter,Democrat,1976,Rhode Island,RI,55.4
+Jimmy Carter,Democrat,1976,South Carolina,SC,56.2
+Jimmy Carter,Democrat,1976,South Dakota,SD,48.9
+Jimmy Carter,Democrat,1976,Tennessee,TN,55.9
+Jimmy Carter,Democrat,1976,Texas,TX,51.1
+Jimmy Carter,Democrat,1976,Utah,UT,33.6
+Jimmy Carter,Democrat,1976,Vermont,VT,42.3
+Jimmy Carter,Democrat,1976,Virginia,VA,48
+Jimmy Carter,Democrat,1976,Washington,WA,46.1
+Jimmy Carter,Democrat,1976,West Virginia,WV,58.1
+Jimmy Carter,Democrat,1976,Wisconsin,WI,49.5
+Jimmy Carter,Democrat,1976,Wyoming,WY,39.8
+Ronald Reagan,Republican,1980,Alabama,AL,48.8
+Ronald Reagan,Republican,1980,Alaska,AK,54.3
+Ronald Reagan,Republican,1980,Arizona,AZ,60.6
+Ronald Reagan,Republican,1980,Arkansas,AR,48.1
+Ronald Reagan,Republican,1980,California,CA,52.7
+Ronald Reagan,Republican,1980,Colorado,CO,55.1
+Ronald Reagan,Republican,1980,Connecticut,CT,48.2
+Ronald Reagan,Republican,1980,Delaware,DE,47.2
+Ronald Reagan,Republican,1980,District of Columbia,DC,13.4
+Ronald Reagan,Republican,1980,Florida,FL,55.5
+Ronald Reagan,Republican,1980,Georgia,GA,41
+Ronald Reagan,Republican,1980,Hawaii,HI,42.9
+Ronald Reagan,Republican,1980,Idaho,ID,66.5
+Ronald Reagan,Republican,1980,Illinois,IL,49.6
+Ronald Reagan,Republican,1980,Indiana,IN,56
+Ronald Reagan,Republican,1980,Iowa,IA,51.3
+Ronald Reagan,Republican,1980,Kansas,KS,57.9
+Ronald Reagan,Republican,1980,Kentucky,KY,49
+Ronald Reagan,Republican,1980,Louisiana,LA,51.2
+Ronald Reagan,Republican,1980,Maine,ME,45.6
+Ronald Reagan,Republican,1980,Maryland,MD,44.2
+Ronald Reagan,Republican,1980,Massachusetts,MA,41.9
+Ronald Reagan,Republican,1980,Michigan,MI,49
+Ronald Reagan,Republican,1980,Minnesota,MN,42.6
+Ronald Reagan,Republican,1980,Mississippi,MS,49.5
+Ronald Reagan,Republican,1980,Missouri,MO,51.2
+Ronald Reagan,Republican,1980,Montana,MT,56.8
+Ronald Reagan,Republican,1980,Nebraska,NE,65.6
+Ronald Reagan,Republican,1980,Nevada,NV,63.6
+Ronald Reagan,Republican,1980,New Hampshire,NH,57.7
+Ronald Reagan,Republican,1980,New Jersey,NJ,52
+Ronald Reagan,Republican,1980,New Mexico,NM,55
+Ronald Reagan,Republican,1980,New York,NY,46.7
+Ronald Reagan,Republican,1980,North Carolina,NC,49.3
+Ronald Reagan,Republican,1980,North Dakota,ND,64.3
+Ronald Reagan,Republican,1980,Ohio,OH,51.5
+Ronald Reagan,Republican,1980,Oklahoma,OK,60.5
+Ronald Reagan,Republican,1980,Oregon,OR,48.3
+Ronald Reagan,Republican,1980,Pennsylvania,PA,49.6
+Ronald Reagan,Republican,1980,Rhode Island,RI,37.2
+Ronald Reagan,Republican,1980,South Carolina,SC,49.5
+Ronald Reagan,Republican,1980,South Dakota,SD,60.5
+Ronald Reagan,Republican,1980,Tennessee,TN,48.7
+Ronald Reagan,Republican,1980,Texas,TX,55.3
+Ronald Reagan,Republican,1980,Utah,UT,72.8
+Ronald Reagan,Republican,1980,Vermont,VT,44.4
+Ronald Reagan,Republican,1980,Virginia,VA,53
+Ronald Reagan,Republican,1980,Washington,WA,49.7
+Ronald Reagan,Republican,1980,West Virginia,WV,45.3
+Ronald Reagan,Republican,1980,Wisconsin,WI,47.9
+Ronald Reagan,Republican,1980,Wyoming,WY,62.6
+George H.W. Bush,Republican,1988,Alabama,AL,59.2
+George H.W. Bush,Republican,1988,Alaska,AK,59.6
+George H.W. Bush,Republican,1988,Arizona,AZ,60
+George H.W. Bush,Republican,1988,Arkansas,AR,56.4
+George H.W. Bush,Republican,1988,California,CA,51.1
+George H.W. Bush,Republican,1988,Colorado,CO,53.1
+George H.W. Bush,Republican,1988,Connecticut,CT,52
+George H.W. Bush,Republican,1988,Delaware,DE,55.9
+George H.W. Bush,Republican,1988,District of Columbia,DC,14.3
+George H.W. Bush,Republican,1988,Florida,FL,60.9
+George H.W. Bush,Republican,1988,Georgia,GA,59.8
+George H.W. Bush,Republican,1988,Hawaii,HI,44.8
+George H.W. Bush,Republican,1988,Idaho,ID,62.1
+George H.W. Bush,Republican,1988,Illinois,IL,50.7
+George H.W. Bush,Republican,1988,Indiana,IN,59.8
+George H.W. Bush,Republican,1988,Iowa,IA,44.5
+George H.W. Bush,Republican,1988,Kansas,KS,55.8
+George H.W. Bush,Republican,1988,Kentucky,KY,55.5
+George H.W. Bush,Republican,1988,Louisiana,LA,54.3
+George H.W. Bush,Republican,1988,Maine,ME,55.3
+George H.W. Bush,Republican,1988,Maryland,MD,51.1
+George H.W. Bush,Republican,1988,Massachusetts,MA,45.4
+George H.W. Bush,Republican,1988,Michigan,MI,53.6
+George H.W. Bush,Republican,1988,Minnesota,MN,45.9
+George H.W. Bush,Republican,1988,Mississippi,MS,59.9
+George H.W. Bush,Republican,1988,Missouri,MO,51.8
+George H.W. Bush,Republican,1988,Montana,MT,52.1
+George H.W. Bush,Republican,1988,Nebraska,NE,60.2
+George H.W. Bush,Republican,1988,Nevada,NV,60
+George H.W. Bush,Republican,1988,New Hampshire,NH,62.5
+George H.W. Bush,Republican,1988,New Jersey,NJ,56.2
+George H.W. Bush,Republican,1988,New Mexico,NM,51.9
+George H.W. Bush,Republican,1988,New York,NY,47.5
+George H.W. Bush,Republican,1988,North Carolina,NC,58
+George H.W. Bush,Republican,1988,North Dakota,ND,56
+George H.W. Bush,Republican,1988,Ohio,OH,55
+George H.W. Bush,Republican,1988,Oklahoma,OK,57.9
+George H.W. Bush,Republican,1988,Oregon,OR,46.6
+George H.W. Bush,Republican,1988,Pennsylvania,PA,50.7
+George H.W. Bush,Republican,1988,Rhode Island,RI,43.9
+George H.W. Bush,Republican,1988,South Carolina,SC,61.5
+George H.W. Bush,Republican,1988,South Dakota,SD,52.8
+George H.W. Bush,Republican,1988,Tennessee,TN,57.9
+George H.W. Bush,Republican,1988,Texas,TX,56
+George H.W. Bush,Republican,1988,Utah,UT,66.2
+George H.W. Bush,Republican,1988,Vermont,VT,51.1
+George H.W. Bush,Republican,1988,Virginia,VA,59.7
+George H.W. Bush,Republican,1988,Washington,WA,48.5
+George H.W. Bush,Republican,1988,West Virginia,WV,47.5
+George H.W. Bush,Republican,1988,Wisconsin,WI,47.8
+George H.W. Bush,Republican,1988,Wyoming,WY,60.5
+Bill Clinton,Democrat,1992,Alabama,AL,40.9
+Bill Clinton,Democrat,1992,Alaska,AK,30.3
+Bill Clinton,Democrat,1992,Arizona,AZ,36.5
+Bill Clinton,Democrat,1992,Arkansas,AR,53.2
+Bill Clinton,Democrat,1992,California,CA,46
+Bill Clinton,Democrat,1992,Colorado,CO,40.1
+Bill Clinton,Democrat,1992,Connecticut,CT,42.2
+Bill Clinton,Democrat,1992,Delaware,DE,43.5
+Bill Clinton,Democrat,1992,District of Columbia,DC,84.6
+Bill Clinton,Democrat,1992,Florida,FL,39
+Bill Clinton,Democrat,1992,Georgia,GA,43.5
+Bill Clinton,Democrat,1992,Hawaii,HI,48.1
+Bill Clinton,Democrat,1992,Idaho,ID,28.4
+Bill Clinton,Democrat,1992,Illinois,IL,48.6
+Bill Clinton,Democrat,1992,Indiana,IN,36.8
+Bill Clinton,Democrat,1992,Iowa,IA,43.3
+Bill Clinton,Democrat,1992,Kansas,KS,33.7
+Bill Clinton,Democrat,1992,Kentucky,KY,44.6
+Bill Clinton,Democrat,1992,Louisiana,LA,45.6
+Bill Clinton,Democrat,1992,Maine,ME,38.8
+Bill Clinton,Democrat,1992,Maryland,MD,49.8
+Bill Clinton,Democrat,1992,Massachusetts,MA,47.5
+Bill Clinton,Democrat,1992,Michigan,MI,43.8
+Bill Clinton,Democrat,1992,Minnesota,MN,43.5
+Bill Clinton,Democrat,1992,Mississippi,MS,40.8
+Bill Clinton,Democrat,1992,Missouri,MO,44.1
+Bill Clinton,Democrat,1992,Montana,MT,37.6
+Bill Clinton,Democrat,1992,Nebraska,NE,29.4
+Bill Clinton,Democrat,1992,Nevada,NV,37.4
+Bill Clinton,Democrat,1992,New Hampshire,NH,38.9
+Bill Clinton,Democrat,1992,New Jersey,NJ,43
+Bill Clinton,Democrat,1992,New Mexico,NM,45.9
+Bill Clinton,Democrat,1992,New York,NY,48.7
+Bill Clinton,Democrat,1992,North Carolina,NC,42.7
+Bill Clinton,Democrat,1992,North Dakota,ND,32.2
+Bill Clinton,Democrat,1992,Ohio,OH,40.2
+Bill Clinton,Democrat,1992,Oklahoma,OK,34
+Bill Clinton,Democrat,1992,Oregon,OR,42.5
+Bill Clinton,Democrat,1992,Pennsylvania,PA,45.1
+Bill Clinton,Democrat,1992,Rhode Island,RI,47
+Bill Clinton,Democrat,1992,South Carolina,SC,42.8
+Bill Clinton,Democrat,1992,South Dakota,SD,37.1
+Bill Clinton,Democrat,1992,Tennessee,TN,47.1
+Bill Clinton,Democrat,1992,Texas,TX,37.1
+Bill Clinton,Democrat,1992,Utah,UT,24.7
+Bill Clinton,Democrat,1992,Vermont,VT,46.1
+Bill Clinton,Democrat,1992,Virginia,VA,40.6
+Bill Clinton,Democrat,1992,Washington,WA,43.4
+Bill Clinton,Democrat,1992,West Virginia,WV,48.4
+Bill Clinton,Democrat,1992,Wisconsin,WI,41.1
+Bill Clinton,Democrat,1992,Wyoming,WY,34.1
+George W. Bush,Republican,2000,Alabama,AL,56.5
+George W. Bush,Republican,2000,Alaska,AK,58.6
+George W. Bush,Republican,2000,Arizona,AZ,51
+George W. Bush,Republican,2000,Arkansas,AR,51.3
+George W. Bush,Republican,2000,California,CA,41.7
+George W. Bush,Republican,2000,Colorado,CO,50.8
+George W. Bush,Republican,2000,Connecticut,CT,38.4
+George W. Bush,Republican,2000,Delaware,DE,41.9
+George W. Bush,Republican,2000,District of Columbia,DC,9
+George W. Bush,Republican,2000,Florida,FL,48.8
+George W. Bush,Republican,2000,Georgia,GA,55
+George W. Bush,Republican,2000,Hawaii,HI,37.5
+George W. Bush,Republican,2000,Idaho,ID,67.2
+George W. Bush,Republican,2000,Illinois,IL,42.6
+George W. Bush,Republican,2000,Indiana,IN,56.6
+George W. Bush,Republican,2000,Iowa,IA,46.9
+George W. Bush,Republican,2000,Kansas,KS,58
+George W. Bush,Republican,2000,Kentucky,KY,56.5
+George W. Bush,Republican,2000,Louisiana,LA,52.6
+George W. Bush,Republican,2000,Maine,ME,44
+George W. Bush,Republican,2000,Maryland,MD,40.2
+George W. Bush,Republican,2000,Massachusetts,MA,32.1
+George W. Bush,Republican,2000,Michigan,MI,46.1
+George W. Bush,Republican,2000,Minnesota,MN,45.5
+George W. Bush,Republican,2000,Mississippi,MS,57.6
+George W. Bush,Republican,2000,Missouri,MO,50.4
+George W. Bush,Republican,2000,Montana,MT,58.4
+George W. Bush,Republican,2000,Nebraska,NE,62.2
+George W. Bush,Republican,2000,Nevada,NV,49.5
+George W. Bush,Republican,2000,New Hampshire,NH,48.1
+George W. Bush,Republican,2000,New Jersey,NJ,40.3
+George W. Bush,Republican,2000,New Mexico,NM,47.8
+George W. Bush,Republican,2000,New York,NY,34.5
+George W. Bush,Republican,2000,North Carolina,NC,56
+George W. Bush,Republican,2000,North Dakota,ND,60.7
+George W. Bush,Republican,2000,Ohio,OH,50
+George W. Bush,Republican,2000,Oklahoma,OK,60.3
+George W. Bush,Republican,2000,Oregon,OR,46.5
+George W. Bush,Republican,2000,Pennsylvania,PA,46.4
+George W. Bush,Republican,2000,Rhode Island,RI,31.9
+George W. Bush,Republican,2000,South Carolina,SC,56.9
+George W. Bush,Republican,2000,South Dakota,SD,60.3
+George W. Bush,Republican,2000,Tennessee,TN,51.1
+George W. Bush,Republican,2000,Texas,TX,59.3
+George W. Bush,Republican,2000,Utah,UT,66.8
+George W. Bush,Republican,2000,Vermont,VT,40.7
+George W. Bush,Republican,2000,Virginia,VA,52.5
+George W. Bush,Republican,2000,Washington,WA,44.6
+George W. Bush,Republican,2000,West Virginia,WV,51.9
+George W. Bush,Republican,2000,Wisconsin,WI,47.6
+George W. Bush,Republican,2000,Wyoming,WY,69.2
+Barack Obama,Democrat,2008,Alabama,AL,38.7
+Barack Obama,Democrat,2008,Alaska,AK,37.9
+Barack Obama,Democrat,2008,Arizona,AZ,45.1
+Barack Obama,Democrat,2008,Arkansas,AR,38.9
+Barack Obama,Democrat,2008,California,CA,61
+Barack Obama,Democrat,2008,Colorado,CO,53.7
+Barack Obama,Democrat,2008,Connecticut,CT,60.6
+Barack Obama,Democrat,2008,Delaware,DE,61.9
+Barack Obama,Democrat,2008,District of Columbia,DC,92.5
+Barack Obama,Democrat,2008,Florida,FL,51
+Barack Obama,Democrat,2008,Georgia,GA,47
+Barack Obama,Democrat,2008,Hawaii,HI,71.5
+Barack Obama,Democrat,2008,Idaho,ID,36.1
+Barack Obama,Democrat,2008,Illinois,IL,61.9
+Barack Obama,Democrat,2008,Indiana,IN,49.9
+Barack Obama,Democrat,2008,Iowa,IA,53.9
+Barack Obama,Democrat,2008,Kansas,KS,41.7
+Barack Obama,Democrat,2008,Kentucky,KY,41.2
+Barack Obama,Democrat,2008,Louisiana,LA,39.9
+Barack Obama,Democrat,2008,Maine,ME,57.7
+Barack Obama,Democrat,2008,Maryland,MD,61.9
+Barack Obama,Democrat,2008,Massachusetts,MA,61.4
+Barack Obama,Democrat,2008,Michigan,MI,57.4
+Barack Obama,Democrat,2008,Minnesota,MN,54.1
+Barack Obama,Democrat,2008,Mississippi,MS,43
+Barack Obama,Democrat,2008,Missouri,MO,49.3
+Barack Obama,Democrat,2008,Montana,MT,47.3
+Barack Obama,Democrat,2008,Nebraska,NE,41.6
+Barack Obama,Democrat,2008,Nevada,NV,55.1
+Barack Obama,Democrat,2008,New Hampshire,NH,54.1
+Barack Obama,Democrat,2008,New Jersey,NJ,57.3
+Barack Obama,Democrat,2008,New Mexico,NM,56.9
+Barack Obama,Democrat,2008,New York,NY,62.2
+Barack Obama,Democrat,2008,North Carolina,NC,49.7
+Barack Obama,Democrat,2008,North Dakota,ND,44.6
+Barack Obama,Democrat,2008,Ohio,OH,51.5
+Barack Obama,Democrat,2008,Oklahoma,OK,34.4
+Barack Obama,Democrat,2008,Oregon,OR,56.7
+Barack Obama,Democrat,2008,Pennsylvania,PA,54.5
+Barack Obama,Democrat,2008,Rhode Island,RI,62.9
+Barack Obama,Democrat,2008,South Carolina,SC,44.9
+Barack Obama,Democrat,2008,South Dakota,SD,44.7
+Barack Obama,Democrat,2008,Tennessee,TN,41.8
+Barack Obama,Democrat,2008,Texas,TX,43.7
+Barack Obama,Democrat,2008,Utah,UT,34.4
+Barack Obama,Democrat,2008,Vermont,VT,67.5
+Barack Obama,Democrat,2008,Virginia,VA,52.6
+Barack Obama,Democrat,2008,Washington,WA,57.7
+Barack Obama,Democrat,2008,West Virginia,WV,42.6
+Barack Obama,Democrat,2008,Wisconsin,WI,56.2
+Barack Obama,Democrat,2008,Wyoming,WY,32.5
+Donald Trump,Republican,2016,Alabama,AL,62.1
+Donald Trump,Republican,2016,Alaska,AK,51.3
+Donald Trump,Republican,2016,Arizona,AZ,48.7
+Donald Trump,Republican,2016,Arkansas,AR,60.6
+Donald Trump,Republican,2016,California,CA,31.6
+Donald Trump,Republican,2016,Colorado,CO,43.3
+Donald Trump,Republican,2016,Connecticut,CT,40.9
+Donald Trump,Republican,2016,Delaware,DE,41.9
+Donald Trump,Republican,2016,District of Columbia,DC,4.1
+Donald Trump,Republican,2016,Florida,FL,49
+Donald Trump,Republican,2016,Georgia,GA,50.8
+Donald Trump,Republican,2016,Hawaii,HI,29.4
+Donald Trump,Republican,2016,Idaho,ID,59.3
+Donald Trump,Republican,2016,Illinois,IL,38.8
+Donald Trump,Republican,2016,Indiana,IN,56.9
+Donald Trump,Republican,2016,Iowa,IA,51.2
+Donald Trump,Republican,2016,Kansas,KS,56.7
+Donald Trump,Republican,2016,Kentucky,KY,62.5
+Donald Trump,Republican,2016,Louisiana,LA,58.1
+Donald Trump,Republican,2016,Maine,ME,43.5
+Donald Trump,Republican,2016,Maryland,MD,33.9
+Donald Trump,Republican,2016,Massachusetts,MA,32.3
+Donald Trump,Republican,2016,Michigan,MI,47.5
+Donald Trump,Republican,2016,Minnesota,MN,44.9
+Donald Trump,Republican,2016,Mississippi,MS,57.9
+Donald Trump,Republican,2016,Missouri,MO,56.8
+Donald Trump,Republican,2016,Montana,MT,56.5
+Donald Trump,Republican,2016,Nebraska,NE,58.7
+Donald Trump,Republican,2016,Nevada,NV,45.5
+Donald Trump,Republican,2016,New Hampshire,NH,46.5
+Donald Trump,Republican,2016,New Jersey,NJ,41.4
+Donald Trump,Republican,2016,New Mexico,NM,40
+Donald Trump,Republican,2016,New York,NY,36.1
+Donald Trump,Republican,2016,North Carolina,NC,49.8
+Donald Trump,Republican,2016,North Dakota,ND,63
+Donald Trump,Republican,2016,Ohio,OH,51.7
+Donald Trump,Republican,2016,Oklahoma,OK,65.3
+Donald Trump,Republican,2016,Oregon,OR,39.1
+Donald Trump,Republican,2016,Pennsylvania,PA,48.6
+Donald Trump,Republican,2016,Rhode Island,RI,38.9
+Donald Trump,Republican,2016,South Carolina,SC,54.9
+Donald Trump,Republican,2016,South Dakota,SD,61.5
+Donald Trump,Republican,2016,Tennessee,TN,60.7
+Donald Trump,Republican,2016,Texas,TX,52.2
+Donald Trump,Republican,2016,Utah,UT,45.5
+Donald Trump,Republican,2016,Vermont,VT,29.8
+Donald Trump,Republican,2016,Virginia,VA,44.4
+Donald Trump,Republican,2016,Washington,WA,36.8
+Donald Trump,Republican,2016,West Virginia,WV,68.6
+Donald Trump,Republican,2016,Wisconsin,WI,47.2
+Donald Trump,Republican,2016,Wyoming,WY,67.4
+Joe Biden,Democrat,2020,Alabama,AL,36.6
+Joe Biden,Democrat,2020,Alaska,AK,42.8
+Joe Biden,Democrat,2020,Arizona,AZ,49.4
+Joe Biden,Democrat,2020,Arkansas,AR,34.8
+Joe Biden,Democrat,2020,California,CA,63.5
+Joe Biden,Democrat,2020,Colorado,CO,55
+Joe Biden,Democrat,2020,Connecticut,CT,59.3
+Joe Biden,Democrat,2020,Delaware,DE,58.7
+Joe Biden,Democrat,2020,District of Columbia,DC,92.1
+Joe Biden,Democrat,2020,Florida,FL,47.9
+Joe Biden,Democrat,2020,Georgia,GA,49.5
+Joe Biden,Democrat,2020,Hawaii,HI,63.1
+Joe Biden,Democrat,2020,Idaho,ID,33.1
+Joe Biden,Democrat,2020,Illinois,IL,57.5
+Joe Biden,Democrat,2020,Indiana,IN,41
+Joe Biden,Democrat,2020,Iowa,IA,44.6
+Joe Biden,Democrat,2020,Kansas,KS,41.6
+Joe Biden,Democrat,2020,Kentucky,KY,36.2
+Joe Biden,Democrat,2020,Louisiana,LA,39.9
+Joe Biden,Democrat,2020,Maine,ME,52.5
+Joe Biden,Democrat,2020,Maryland,MD,65.4
+Joe Biden,Democrat,2020,Massachusetts,MA,65.1
+Joe Biden,Democrat,2020,Michigan,MI,50.6
+Joe Biden,Democrat,2020,Minnesota,MN,52.4
+Joe Biden,Democrat,2020,Mississippi,MS,41.1
+Joe Biden,Democrat,2020,Missouri,MO,41.4
+Joe Biden,Democrat,2020,Montana,MT,40.5
+Joe Biden,Democrat,2020,Nebraska,NE,39.2
+Joe Biden,Democrat,2020,Nevada,NV,50.1
+Joe Biden,Democrat,2020,New Hampshire,NH,52.7
+Joe Biden,Democrat,2020,New Jersey,NJ,57.3
+Joe Biden,Democrat,2020,New Mexico,NM,54.3
+Joe Biden,Democrat,2020,New York,NY,60.4
+Joe Biden,Democrat,2020,North Carolina,NC,48.6
+Joe Biden,Democrat,2020,North Dakota,ND,31.8
+Joe Biden,Democrat,2020,Ohio,OH,45.2
+Joe Biden,Democrat,2020,Oklahoma,OK,32.3
+Joe Biden,Democrat,2020,Oregon,OR,56.5
+Joe Biden,Democrat,2020,Pennsylvania,PA,50
+Joe Biden,Democrat,2020,Rhode Island,RI,59.5
+Joe Biden,Democrat,2020,South Carolina,SC,43.4
+Joe Biden,Democrat,2020,South Dakota,SD,35.6
+Joe Biden,Democrat,2020,Tennessee,TN,37.5
+Joe Biden,Democrat,2020,Texas,TX,46.5
+Joe Biden,Democrat,2020,Utah,UT,37.6
+Joe Biden,Democrat,2020,Vermont,VT,65.5
+Joe Biden,Democrat,2020,Virginia,VA,54.1
+Joe Biden,Democrat,2020,Washington,WA,58
+Joe Biden,Democrat,2020,West Virginia,WV,29.7
+Joe Biden,Democrat,2020,Wisconsin,WI,49.4
+Joe Biden,Democrat,2020,Wyoming,WY,26.4
+Donald Trump (Second Term),Republican,2024,Alabama,AL,64.8
+Donald Trump (Second Term),Republican,2024,Alaska,AK,56.9
+Donald Trump (Second Term),Republican,2024,Arizona,AZ,52.2
+Donald Trump (Second Term),Republican,2024,Arkansas,AR,64.2
+Donald Trump (Second Term),Republican,2024,California,CA,38.3
+Donald Trump (Second Term),Republican,2024,Colorado,CO,43.2
+Donald Trump (Second Term),Republican,2024,Connecticut,CT,41.9
+Donald Trump (Second Term),Republican,2024,Delaware,DE,41.9
+Donald Trump (Second Term),Republican,2024,District of Columbia,DC,6.5
+Donald Trump (Second Term),Republican,2024,Florida,FL,56.1
+Donald Trump (Second Term),Republican,2024,Georgia,GA,50.7
+Donald Trump (Second Term),Republican,2024,Hawaii,HI,37.5
+Donald Trump (Second Term),Republican,2024,Idaho,ID,66.9
+Donald Trump (Second Term),Republican,2024,Illinois,IL,43.8
+Donald Trump (Second Term),Republican,2024,Indiana,IN,58.6
+Donald Trump (Second Term),Republican,2024,Iowa,IA,56
+Donald Trump (Second Term),Republican,2024,Kansas,KS,57.2
+Donald Trump (Second Term),Republican,2024,Kentucky,KY,64.5
+Donald Trump (Second Term),Republican,2024,Louisiana,LA,60.2
+Donald Trump (Second Term),Republican,2024,Maine,ME,45.5
+Donald Trump (Second Term),Republican,2024,Maryland,MD,34.3
+Donald Trump (Second Term),Republican,2024,Massachusetts,MA,36.2
+Donald Trump (Second Term),Republican,2024,Michigan,MI,49.7
+Donald Trump (Second Term),Republican,2024,Minnesota,MN,46.9
+Donald Trump (Second Term),Republican,2024,Mississippi,MS,60.9
+Donald Trump (Second Term),Republican,2024,Missouri,MO,58.5
+Donald Trump (Second Term),Republican,2024,Montana,MT,58.4
+Donald Trump (Second Term),Republican,2024,Nebraska,NE,59.6
+Donald Trump (Second Term),Republican,2024,Nevada,NV,50.6
+Donald Trump (Second Term),Republican,2024,New Hampshire,NH,48.1
+Donald Trump (Second Term),Republican,2024,New Jersey,NJ,46.1
+Donald Trump (Second Term),Republican,2024,New Mexico,NM,45.9
+Donald Trump (Second Term),Republican,2024,New York,NY,43.7
+Donald Trump (Second Term),Republican,2024,North Carolina,NC,51
+Donald Trump (Second Term),Republican,2024,North Dakota,ND,67.5
+Donald Trump (Second Term),Republican,2024,Ohio,OH,55.2
+Donald Trump (Second Term),Republican,2024,Oklahoma,OK,66.2
+Donald Trump (Second Term),Republican,2024,Oregon,OR,41.3
+Donald Trump (Second Term),Republican,2024,Pennsylvania,PA,50.4
+Donald Trump (Second Term),Republican,2024,Rhode Island,RI,42
+Donald Trump (Second Term),Republican,2024,South Carolina,SC,58.2
+Donald Trump (Second Term),Republican,2024,South Dakota,SD,63.4
+Donald Trump (Second Term),Republican,2024,Tennessee,TN,64.2
+Donald Trump (Second Term),Republican,2024,Texas,TX,56.2
+Donald Trump (Second Term),Republican,2024,Utah,UT,59.4
+Donald Trump (Second Term),Republican,2024,Vermont,VT,32.6
+Donald Trump (Second Term),Republican,2024,Virginia,VA,46.3
+Donald Trump (Second Term),Republican,2024,Washington,WA,39.3
+Donald Trump (Second Term),Republican,2024,West Virginia,WV,70
+Donald Trump (Second Term),Republican,2024,Wisconsin,WI,49.7
+Donald Trump (Second Term),Republican,2024,Wyoming,WY,72.3

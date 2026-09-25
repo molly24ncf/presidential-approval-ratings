@@ -4,4 +4,7 @@ title: "Background"
 
 ## Project Background
 
-This project examines historical trends in American political sentiment using monthly polling series from Gallup, tracking public approval, congressional approval, and party favorability from 1945 to 2026.
+Put simply, a presidential approval rating is the percentage of people who approve and are satisfied with the job of the current president and their administration.
+
+Approval ratings were first collected in 1938 by George Gallup as a way to use newer and more accurate polling methods to analyze how people felt about sitting president, Franklin D. Roosevelt. This polling gave the public, as well as the administration, a deeper examination of public sentiment beyond just election night outcomes.
+

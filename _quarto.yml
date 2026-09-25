@@ -10,7 +10,12 @@ website:
     left:
       - href: index.qmd
         text: Story
-      - exploration.qmd
+      - href: exploration.qmd
+        text: Presidents
+      - href: states.qmd
+        text: States
+      - href: key-events.qmd
+        text: Key Events
       - href: background.qmd
         text: Background
 
@@ -20,7 +25,7 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
+    toc: false
 
 
 
