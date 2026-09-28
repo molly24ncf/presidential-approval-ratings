@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap');
 
-/* Cinematic White House Night Background with Obsidian Backdrop */
+/* Cinematic Mount Rushmore Presidential Background with Obsidian Backdrop */
 body {
   background-color: #040608;
   background-image: 
@@ -17,7 +17,7 @@ body {
       rgba(4, 6, 8, 0.35) 55%,
       #040608 92%
     ),
-    url('images/white_house.jpg');
+    url('images/presidential_background.png');
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
