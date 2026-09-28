@@ -148,7 +148,7 @@ tagList(
       tags$img(
         src = "images/presidents/nixon.jpg",
         alt = "Richard Nixon portrait",
-        style = "width: 75px; height: 95px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
+        style = "width: 52px; height: 65px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
       ),
       tags$div(
         tags$h3(style = "margin: 0 0 6px 0; font-size: 1.4rem; font-weight: 700; color: #ffffff;", "Richard Nixon (1969–1974)"),
@@ -330,7 +330,7 @@ tagList(
       tags$img(
         src = "images/presidents/bush43.jpg",
         alt = "George W. Bush portrait",
-        style = "width: 75px; height: 95px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
+        style = "width: 52px; height: 65px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
       ),
       tags$div(
         tags$h3(style = "margin: 0 0 6px 0; font-size: 1.4rem; font-weight: 700; color: #ffffff;", "George W. Bush (2001–2009)"),

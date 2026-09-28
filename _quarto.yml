@@ -18,6 +18,8 @@ website:
         text: Key Events
       - href: background.qmd
         text: Background
+      - href: about.qmd
+        text: About
 
 format:
   html:

@@ -121,8 +121,7 @@ make_state_map <- function(pres) {
     geo = list(
       scope = "usa",
       projection = list(type = "albers usa"),
-      showlakes = TRUE,
-      lakecolor = "rgba(15, 23, 42, 0.8)",
+      showlakes = FALSE,
       bgcolor = "rgba(0,0,0,0)"
     ),
     paper_bgcolor = "rgba(0,0,0,0)",
@@ -187,7 +186,7 @@ tagList(
           tags$img(
             src = p_img,
             alt = paste(p_name, "portrait"),
-            style = "width: 75px; height: 95px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
+            style = "width: 52px; height: 65px; object-fit: cover; border-radius: 6px; box-shadow: 0 3px 8px rgba(0,0,0,0.4); border: 1px solid rgba(255, 255, 255, 0.2);"
           ),
           tags$div(
             tags$h3(style = "margin: 0 0 6px 0; font-size: 1.4rem; font-weight: 700; color: #ffffff;", paste0(p_name, " (", p_term, ")")),
