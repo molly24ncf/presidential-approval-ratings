@@ -9,7 +9,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Story
+        text: "How do Americans View their Leaders?"
       - href: exploration.qmd
         text: Presidents
       - href: states.qmd
